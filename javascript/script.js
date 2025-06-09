@@ -1,15 +1,13 @@
-const questions = document.querySelectorAll('.faq-question');
+const questions = document.querySelectorAll('.question-FAQ');
 
 questions.forEach(question => {
   question.addEventListener('click', () => {
     const answer = question.nextElementSibling;
 
-    // Hide all other answers
-    document.querySelectorAll('.faq-answer').forEach(a => {
+    document.querySelectorAll('.answer-FAQ').forEach(a => {
       if (a !== answer) a.classList.remove('show');
     });
 
-    // Toggle current answer
     answer.classList.toggle('show');
   });
 });

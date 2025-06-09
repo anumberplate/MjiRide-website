@@ -5,6 +5,7 @@ body{
   height:9000px;
   display: grid;
   grid-template-columns: 1fr;
+  background-color:rgb(39 39 39);
 }
 .line{
   background-color: white;

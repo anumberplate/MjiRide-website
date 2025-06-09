@@ -6,8 +6,8 @@ async function loadContextAndStartChatbot(){
     const chatbot = puter.ai.chat({
       container: document.getElementById('prompt-container'),
       systemPrompt: systemPrompt
-    })
-     document.querySelectorAll('.sample-questions button').forEach(button => {
+    });
+     document.querySelectorAll('.AI-questions button').forEach(button => {
       button.addEventListener('click', () => {
         chatbot.ask(button.textContent);
       });
@@ -15,7 +15,7 @@ async function loadContextAndStartChatbot(){
 
   } catch (error) {
     console.error('Failed to load context:', error);
-    document.getElementById('chatbot-container').innerText = "Failed to load chatbot. Please try again later.";
+    document.getElementById('prompt-container').innerText = "Failed to load chatbot. Please try again later.";
   }
 }
     

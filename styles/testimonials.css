@@ -8,20 +8,7 @@
   flex-direction: column;
 }
 
-.circles{
-  width:30px;
-  display: flex;
-  flex-direction: row;
-}
 
-.c1,
-.c2,
-.c3{
-  width:20px;
-  height:20px;
-  background-color: black;
-  border-radius: 10px;
-}
 
 .review{
   font-weight: bold;
