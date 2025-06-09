@@ -1,0 +1,35 @@
+
+
+.FAQaccordion {
+  max-width: 600px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #fafafa;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: #f0f0f0;
+}
+
+.faq-answer {
+  padding: 1rem;
+  display: none;
+  background-color: #ffffff;
+}
+
+.faq-answer.show {
+  display: block;
+}
