@@ -1,0 +1,109 @@
+1. Startup Name
+ Startup Name:  MjiRide
+
+2. Origin Story
+Our Story:
+The idea originates from the everyday struggles faced by commuters in our public transportation system—marked by disorganization, reckless driving, unroadworthy vehicles, and unreliable stops. 
+Witnessing these persistent issues firsthand inspired Garvin Aguko and Kyle Aluma to come up with a practical solution: a structured carpooling service designed to offer a safer, more efficient, and more reliable alternative. Sparked by personal experiences and a desire to improve the daily lives of many, the idea aims to eliminate the chaos of traditional commuting. It matters deeply to our community because better transportation means safer roads, reduced stress, and a stronger sense of trust and connection among commuters.
+
+3. Products / Services
+Service 1: On-Demand Carpool Rides
+ Description: A real-time ride-hailing service that
+allows users to request a ride instantly and 
+ it with others heading in the same direction, 
+ the same way uber works.
+
+
+Service 2: Scheduled Commute Pools
+ Description:  A recurring ride service for daily
+commutes. Riders book seats ahead of time and are
+ matched with drivers on similar routines.
+
+
+Service 3: Inter-City Ride Sharing Network
+Description: A platform for long-distance ride 
+sharing, connecting travelers going between cities,
+towns, or regions. Riders can book seats in 
+advance and join shared trips for vacations, 
+events, or weekend getaways.
+
+
+
+4. Key Features & Impact
+Feature Name: Smart rider-matching (dynamic pooling)
+ Service(s): Real-time ride matching
+ Tool/Method:  AI-based matching algorithm using 
+ geolocation and trip data
+ Impact: Maximizes vehicle occupancy and route 
+ efficiency
+
+Feature Name: Weekly or daily ride planning
+Service(s): Advanced booking for routines
+Tool/Method: Calendar based scheduling system for
+each user
+ Impact: Keeps a high standard of predictability
+and reliability
+
+
+Feature Name: Real-time tracking & route optimization
+ Service(s): Live navigation and trip updates
+ Tool/Method: GPS tracking, real-time traffic data 
+ and route optimization algorithms
+ Impact: Shortens trip duration, enhances user 
+ confidence
+
+
+
+
+5. Testimonials (Fictional)
+“Out of all the carpooling applications I have tried
+, nothing tops the extraordinary performance of 
+MjiRide - quick, never late, with drivers of 
+exceptional skills.” –Dr, Johnston Rubston,
+ Professor 
+
+
+“If you want a smooth day-to-day commute 
+experience, Mjiride is never disappointing. 
+The days of public transportation are numbered.” 
+– Dr. Emily Natalia, Doctor 
+
+
+
+6. Meet the Team
+
+Name: Kyle Aluma
+ Role: CEO of SwiftMat
+ Responsibility: 
+ (Insert Photo Here)
+
+Name: Garvin Aguko 
+ Role: Manager at MjiRide
+ Responsibility: 
+ (Insert Photo Here)
+
+Name: Stennis Orina
+ Role: CFO at SwiftMat
+ Responsibility: 
+ (Insert Photo Here)
+
+7. Mission Statement
+ Mission: To provide the best, fastest and safest commuting experience for everyone. 
+
+8. Vision Statement
+Vision: We believe in a world where transportation across cities will
+be seamless through our system of carpooling, that is eco-friendly, 
+fast and full of flexibility to complement the public transportation 
+system. 
+
+9. Startup Goals
+Increase the number of vehicles in our network to 2000.
+Ensure 50% of our vehicles are eco-friendly vehicles.
+Broadening our carpooling network to 2 more cities
+
+10. Who Can Join Us
+Uber
+Bolt
+Capital FM
+Pinehout Enterprises
+
