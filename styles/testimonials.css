@@ -1,0 +1,39 @@
+.testimonials{
+  display:flex;
+  flex-direction: column;
+  background-color:rgb(207,219,213);
+  row-gap:10px;
+  vertical-align: center;
+}
+
+ 
+.testimonials-title{
+  flex:1;
+  font-family: 'Konkhmer Sleokchher';
+  font-size:128px;
+  text-align: center;
+  padding:0;
+  margin-top:30px;
+ }
+
+.testimonials > .line {
+  background-color: black;
+}
+
+.testimonial-container{
+  padding-left:100px;
+  padding-right:100px;
+  display: flex;
+  flex-direction: column;
+  row-gap:40px;
+  margin-bottom:70px;
+}
+
+.testimonial-box{
+  padding-left: 30px;
+  padding-right:30px;
+  background-color: white;
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}

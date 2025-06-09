@@ -1,0 +1,47 @@
+.services{
+  background-color:rgb(245,203,92);
+}
+
+.services-container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.services-title{
+  flex:1;
+  font-family: 'Konkhmer Sleokchher';
+  font-size:128px;
+  text-align: center;
+}
+
+.services-container > .line{
+    background-color: black;
+    width:900px;
+
+}
+
+.features-container{
+  display: flex;
+  flex-direction: row;
+  column-gap: 80px;
+  flex:4;
+}
+
+.left-arrow,
+.right-arrow{
+  width: 120px;
+  height: 120px;
+  border-radius:60px;
+  background-color: rgb(39,39,39);
+  flex:1;
+
+}
+
+.feature-box{
+  background-color: rgb(39,39,39);
+  flex:8;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+}
