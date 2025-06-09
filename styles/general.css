@@ -1,8 +1,14 @@
 body{
   padding: 0 ;
   margin: 0 ;
+  font-family:'Inter';
+  height:9000px;
   display: grid;
   grid-template-columns: 1fr;
-  font-family:'Inter';
 }
+.line{
+  background-color: white;
+  height:2px;
+  width:900px;
 
+}

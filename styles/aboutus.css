@@ -1,0 +1,61 @@
+.about-us{
+  background-color: rgb(39 39 39);
+  position:relative;
+  margin-top: 0;
+}
+.about-us-container{
+  display: flex;
+  flex-direction: column;
+  row-gap:5px;
+  padding-left:80px;
+
+}
+
+.circles{
+  position:absolute;
+  top:65px;
+  left:80px;
+  display:flex;
+  flex-direction: row;
+  column-gap: 5px;
+}
+.circle{
+  background-color: white;
+  width:10px;
+  height:10px;
+  border-radius: 15px;
+}
+
+.about-us-title{
+    flex:1;
+    font-family: 'Konkhmer Sleokchher';
+    font-size:128px;
+    color:rgb(245,203,92);
+    margin:0;
+    margin-top:90px;
+    padding:0;
+
+}
+
+.about-us-container > .line{
+    width: 1000px;
+    margin:0;
+    padding:0;
+}
+
+.about-us-info-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  width:fit-content;
+}
+
+.about-us-info{
+  color:white;
+  width:550px;
+}
+
+.about-us-photo{
+  height:200px;
+  width:200px;
+}
