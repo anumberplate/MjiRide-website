@@ -1,6 +1,7 @@
 .AI-assistant{
   background-color: rgb(245,203,92);
   flex:1;
+  padding-bottom: 100px;
 }
 
 .AI-content{
@@ -40,6 +41,7 @@
 .msg-box{
   display:flex;
   flex-direction: row;
+  column-gap:30px;
 }
 
 .input-box{
@@ -115,11 +117,23 @@
 
 
 #userInput {
-  flex-grow: 1;
+  flex:1;
   padding: 10px;
 }
 
 .sample-questions {
   margin-top: 15px;
+}
+
+.send{
+  background-color: rgb(39,39,39);
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgb(245,203,92);
+  border: solid rgb(245,203,92);
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
