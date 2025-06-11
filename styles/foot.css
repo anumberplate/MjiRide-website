@@ -19,3 +19,15 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.imgs{
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+
+}
+
+.logo1{
+  width:20px;
+  height:20px;
+}
