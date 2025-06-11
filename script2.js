@@ -78,6 +78,7 @@ Uber
 Bolt
 Capital FM
 Pinehout Enterprises
+Note: Explicitly answer questions related to Mjiride. Refrain yourself from answering unrelated questions. You are at the heart of MJIRIDE WEBSITE
 `;
 
 
