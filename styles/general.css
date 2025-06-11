@@ -1,15 +1,26 @@
 body{
-  padding: 0 ;
-  margin: 0 ;
+  padding:0;
+  margin:0;
   font-family:'Inter';
-  height:9000px;
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   background-color:rgb(39 39 39);
 }
+
 .line{
   background-color: white;
   height:2px;
-  width:900px;
+  width:100px;
 
+}
+.hero-section{
+  height:100%;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.foot{
+  flex:1;
 }

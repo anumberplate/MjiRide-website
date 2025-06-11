@@ -2,8 +2,7 @@
   background-image: url('/images/pexels-alexazabache-3879060.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  height: 800px;
+  
 }
 
 .navbar{
@@ -24,40 +23,41 @@
 }
 
 .company-details{
-  left:120px;
-  top:300px;
-  bottom:0px;
-  min-width: 50px;
-  position: absolute;
+  margin-top:150px;
+  margin-left:120px;
+  width:50%;
   background-color: rgba(0,0,0,0.6);
-  padding-right:100px;
-  padding-left:100px;
+  padding-right:40px;
+  padding-left:80px;
+  padding-bottom: 50px;
   padding-top: 40px;
-  padding-bottom: 150px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   display:flex;
   flex-direction: column;
   justify-content: center;
-  row-gap: 20px;
+  row-gap: 40px;
 
 }
 
-.company-name{
+.company-name1{
   flex:1;
   font-family: 'Konkhmer Sleokchher';
-  font-size:128px;
+  font-size:7rem;
   color:rgb(245,203,92);
+  font-weight: 500;
 }
+
 .mission{
+  margin-top:0;
   flex:1;
   color:white;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 
 }
 
 .CTA-button{
-  flex:1;
+  margin-top:0;
   background-color: black;
   color: white;
   width:200px;

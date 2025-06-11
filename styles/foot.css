@@ -1,7 +1,21 @@
 .foot{
+  flex:1;
   color:white;
   background-color: rgb(39,39,39);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  
 }
 .number_visitors{
+  font-size: 108px;
   color:rgb(245,203,92);
+  font-weight:500;
+}
+
+.details-container{
+  padding-left:120px;
+  width:50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

@@ -22,7 +22,6 @@
   text-align: left;
 }
 
-/* Inputs and textarea */
 .contact-form label {
   margin-top: 1rem;
   display: block;
@@ -38,7 +37,6 @@
   border-radius: 5px;
 }
 
-/* Button */
 .contact-form button {
   width: 100%;
   padding: 0.7rem;
@@ -51,4 +49,9 @@
 
 .contact-form button:hover {
   background: #e3b52f;
+}
+
+.container h1{
+  font-size: 108px;
+  color:#f0c23b;
 }

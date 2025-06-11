@@ -1,5 +1,6 @@
 .AI-assistant{
   background-color: rgb(245,203,92);
+  flex:1;
 }
 
 .AI-content{
@@ -81,3 +82,44 @@
 .AI-questions button:hover {
   background-color: #aab50b;
 }
+
+.chat-window {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.chat-window .bubble {
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  max-width: 80%;
+}
+
+.bubble.user {
+  background-color: #fff45e;
+  align-self: flex-end;
+  text-align: right;
+  margin-left: auto;
+}
+
+.bubble.bot {
+  background-color: #e6ffe6;
+  align-self: flex-start;
+  text-align: left;
+  margin-right: auto;
+}
+
+
+#userInput {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.sample-questions {
+  margin-top: 15px;
+}
+

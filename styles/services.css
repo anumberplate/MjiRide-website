@@ -1,18 +1,20 @@
 .services{
+  padding-top: 80px;
+  padding-bottom:80px;
   background-color:rgb(245,203,92);
-}
-
-.services-container{
-  display: flex;
-  flex-direction: column;
-  row-gap: 20px;
-}
-
-.services-title{
   flex:1;
+}
+.title-container{
+  padding-left:50px;
+  padding-right:50px;
+}
+.services-title{
   font-family: 'Konkhmer Sleokchher';
   font-size:128px;
   text-align: center;
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
 }
 
 .services-container > .line{
@@ -24,26 +26,13 @@
 .features-container{
   display: flex;
   flex-direction: row;
-  column-gap: 80px;
-  flex:4;
-}
-
-
-
-
-.feature-box{
-  background-color: rgb(39,39,39);
-  flex:8;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: row;
-}
-.carousel {
-  display: flex;
+  column-gap: 40px;
   align-items: center;
-  justify-content: center;
-  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
 }
+
+
 
 .left-arrow,
 .right-arrow {
@@ -52,42 +41,52 @@
   font-size: 2rem;
   border: none;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width:80px;
+  height:80px;
   cursor: pointer;
 }
 
 .feature-carousel{
+  flex:2;
   display: flex;
   overflow: hidden;
-  width: 80%;
   scroll-behavior: smooth;
+  flex-shrink:0;
 }
 
 .card {
   background: rgb(39,39,39);
   color: white;
-  border-radius: 10px;
   display: flex;
-  padding: 1rem;
-  gap: 1rem;
+  padding:50px;
+  gap:60px;
   min-width: 100%;
   transition: transform 0.3s ease;
 }
 
-.card img {
-  width: 200px;
-  height: auto;
-  border-radius: 5px;
+.image-container {
+  flex:1; 
+}
+
+.imgservice{
   object-fit: cover;
+  width:400px;
+  height:400px;
 }
 
 .card-content {
+  padding-left: 30px;
   text-align: left;
+  flex:3;
+}
+
+.card-content p{
+  width:80%;
 }
 
 .card-content h3 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  width:70%;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
   color: rgb(245,203,92);
 }

@@ -1,6 +1,32 @@
+.FAQ-title-block{
+  padding-left:50px;
+  padding-right:50px;
+}
+.see-through2{
+  padding-top:80px;
+  padding-bottom:200px;
+  background-color:rgba(0, 0, 0, 0.8);
+  width:100%;
+  height:100%;
+}
+.FAQ-title{
+  color: rgb(245,203,92);
+  font-family: 'Konkhmer Sleokchher';
+  font-size:128px;
+  text-align: center;
+  border-bottom-color: white;
+  border-bottom-style:solid;
+  border-bottom-width: 1px;
+  
+}
+.FAQ-block{
+  background-image: url('/images/pexels-jeshoots-7433.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .FAQaccordion {
-  max-width: 600px;
+  max-width: 900px;
   margin: auto;
   background-color: rgb(39 39 39);
   border-radius: 8px;
@@ -8,12 +34,12 @@
 }
 
 .FAQ-item {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ffffff;
 }
 
 .question-FAQ {
   color:rgb(245,203,92);
-  padding: 1rem;
+  padding: 4rem;
   cursor: pointer;
   background-color: rgb(46, 46, 46);
   font-weight: bold;
@@ -25,9 +51,9 @@
 }
 
 .answer-FAQ {
-  padding: 1rem;
+  padding: 4rem;
   display: none;
-  background-color: #ffffff;
+  background-color: rgb(245,203,92);
 }
 
 .answer-FAQ.show {
